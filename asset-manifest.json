@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/frontend-mentor/ecommerce-product-page/static/css/main.089d80ce.css",
+    "main.js": "/frontend-mentor/ecommerce-product-page/static/js/main.757b2c8e.js",
+    "static/media/KumbhSans-Bold.ttf": "/frontend-mentor/ecommerce-product-page/static/media/KumbhSans-Bold.4026f7b98708245e3b30.ttf",
+    "static/media/KumbhSans-Regular.ttf": "/frontend-mentor/ecommerce-product-page/static/media/KumbhSans-Regular.f0b817a565ee7c8fbadb.ttf",
+    "index.html": "/frontend-mentor/ecommerce-product-page/index.html",
+    "main.089d80ce.css.map": "/frontend-mentor/ecommerce-product-page/static/css/main.089d80ce.css.map",
+    "main.757b2c8e.js.map": "/frontend-mentor/ecommerce-product-page/static/js/main.757b2c8e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.089d80ce.css",
+    "static/js/main.757b2c8e.js"
+  ]
+}
