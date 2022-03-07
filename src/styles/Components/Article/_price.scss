@@ -1,0 +1,105 @@
+.price {
+  margin-top: 3rem;
+  font-family: 'KumbhSans-Bold', sans-serif;
+
+  &-print {
+    display: flex;
+    flex-direction: column;
+
+    @media screen and (max-width: 1250px) {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    &__reduced {
+      margin-bottom: 0;
+      font-size: 2rem;
+      display: flex;
+      align-items: center;
+
+      @media screen and (max-width: 1250px) {
+        margin: 0;
+      }
+
+      span {
+        font-size: 1.2rem;
+        margin: 0 1rem;
+        padding: 0.2rem 0.5rem;
+        background-color: $secondary-color;
+        color: $primary-color;
+        border-radius: 8px;
+      }
+    }
+
+    &__standard {
+      color: $grayish-blue;
+      text-decoration: line-through;
+    }
+  }
+}
+
+.add-cart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3rem 0;
+
+  @media screen and (max-width: 1250px) {
+    flex-direction: column;
+  }
+
+  &__quantity {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: $light-grayish-blue;
+    border-radius: 8px;
+    width: 25%;
+
+    @media screen and (max-width: 1250px) {
+      width: 100%;
+      margin-bottom: 1.5rem;
+    }
+
+    &-plus, &-minus {
+      height: max-content;
+      flex-grow: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 4rem;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+
+    &-print {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-grow: 1;
+      margin: 0;
+      height: 4rem;
+    }
+
+    img {
+      width: fit-content;
+      height: fit-content;
+    }
+  }
+
+  .button {
+    font-family: inherit;
+    font-size: 1rem;
+    
+    &:hover {
+      cursor: pointer;
+    }
+
+    svg {
+      margin-right: 1rem;
+    }
+  }
+}

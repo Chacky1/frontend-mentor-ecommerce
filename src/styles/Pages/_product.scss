@@ -1,0 +1,28 @@
+.product {
+  display: flex;
+  align-items: center;
+  padding: 3rem;
+
+  @media screen and (max-width: 1250px) {
+    flex-direction: column;
+    padding: 2rem;
+  }
+
+  @media screen and (max-width: 500px) {
+    padding: 0;
+  }
+}
+
+.image-wrapper, .description-wrapper {
+  flex-grow: 1;
+}
+
+.image-wrapper {
+  &>div {
+    width: 80%;
+
+    @media screen and (max-width: 1250px){
+      width: 100%;
+    }
+  }
+}
